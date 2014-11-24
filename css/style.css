@@ -1,0 +1,122 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+background: -webkit-linear-gradient(black, transparent);
+background: -o-linear-gradient(black, transparent);
+background: linear-gradient(black, transparent); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+  border: none;
+
+
+}
+
+.navbar .navbar-nav > li > a {
+  color: white;
+  font-transform: uppercase;
+}
+
+.navbar-nav > li {
+  text-transform: uppercase;
+
+}
+
+/* additional sections */
+#home {
+  background: url(../img/navios.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  background: url(../img/gplaypattern.png) top left repeat;
+  background-color: #222;
+  color: white;
+}
+
+.lead2 {
+  padding: 1em 2em;
+}
+
+#services {
+  background-color: #222;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+.serv h4 {
+  padding-top: 10px;
+}
+
+#info {
+  background: url(../img/plataforma.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#info .panel {
+  opacity: 0.75;
+}
+
+#map-container{
+  height: 30%;
+  width: 100%;
+  background: url(../img/gplaypattern.png) top left repeat;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
